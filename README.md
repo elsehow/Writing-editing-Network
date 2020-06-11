@@ -33,7 +33,8 @@ Table of Contents
 ## Quickstart
 
 #### Preprocessing:
-Put the acl_titles_and_abstracts.txt under the Writing-editing network folder. Randomly split the data into train, dev and test by runing split_data.py. 
+- Run `python3 split_data.py` to randomly split the data into train, dev and
+  test by runing split_data.py.
 
 #### Training
 Hyperparameter can be adjust in the Config class of main.py.

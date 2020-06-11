@@ -1,5 +1,5 @@
 from random import shuffle
-file1=open("acl_titles_and_abstracts.txt", 'r')
+file1=open("data/acl_titles_and_abstracts.txt", 'r')
 lines=file1.readlines()
 file1.close()
 abs_t = []
